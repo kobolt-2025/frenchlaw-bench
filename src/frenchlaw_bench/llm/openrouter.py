@@ -19,9 +19,17 @@ RETRY_DELAYS = [5, 15, 30]
 
 
 class OpenRouterClient(BaseLLMClient):
-    def __init__(self, model: str, api_key: str | None = None) -> None:
+    def __init__(
+        self,
+        model: str,
+        api_key: str | None = None,
+        provider: str | None = None,
+        quantization: str | None = None,
+    ) -> None:
         self.model = model
         self._api_key = api_key or OPENROUTER_API_KEY
+        self._provider = provider
+        self._quantization = quantization
         self._client = httpx.AsyncClient(timeout=300)
 
     async def complete(
@@ -37,12 +45,21 @@ class OpenRouterClient(BaseLLMClient):
             messages.append({"role": "system", "content": system})
         messages.append({"role": "user", "content": prompt})
 
-        payload = {
+        payload: dict = {
             "model": self.model,
             "messages": messages,
             "temperature": temperature,
             "max_tokens": max_tokens,
         }
+
+        # Provider routing (OpenRouter provider preferences)
+        if self._provider or self._quantization:
+            provider_prefs: dict = {}
+            if self._provider:
+                provider_prefs["order"] = [self._provider]
+            if self._quantization:
+                provider_prefs["quantizations"] = [self._quantization]
+            payload["provider"] = provider_prefs
         headers = {
             "Authorization": f"Bearer {self._api_key}",
             "Content-Type": "application/json",

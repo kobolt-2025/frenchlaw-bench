@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import logging
 
+from frenchlaw_bench.json_utils import parse_llm_json
 from frenchlaw_bench.llm.base import BaseLLMClient
 from frenchlaw_bench.scoring.prompts import SOURCE_SCORE_PROMPT, SOURCE_SCORE_SYSTEM
 
@@ -22,16 +23,10 @@ async def compute_source_score(client: BaseLLMClient, response: str) -> float | 
     llm_resp = await client.complete(prompt, system=SOURCE_SCORE_SYSTEM, temperature=0.0)
 
     try:
-        data = json.loads(llm_resp.content)
-    except json.JSONDecodeError:
-        cleaned = llm_resp.content.strip()
-        start = cleaned.find("{")
-        end = cleaned.rfind("}") + 1
-        if start >= 0 and end > start:
-            data = json.loads(cleaned[start:end])
-        else:
-            logger.warning("Impossible de parser la réponse du source scorer")
-            return None
+        data = parse_llm_json(llm_resp.content)
+    except (json.JSONDecodeError, ValueError):
+        logger.warning("Impossible de parser la réponse du source scorer")
+        return None
 
     total = data.get("total_needing_source", 0)
     if total == 0:
