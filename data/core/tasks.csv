@@ -1,0 +1,645 @@
+Number,Category,SubCategory,TaskType,Title,Prompt,Documents,Rubric
+1,Droit Privé,Corporate / Sociétés,Conseil stratégique,Transformation SARL en SAS,"Vous êtes avocat au sein d'un cabinet spécialisé en droit des sociétés. Votre client, M. Dupont, est gérant et associé majoritaire (60%) d'une SARL au capital de 150 000 euros, spécialisée dans le conseil en ingénierie. La SARL compte 3 associés et 25 salariés. M. Dupont souhaite transformer la SARL en SAS afin d'accueillir un fonds d'investissement au capital et de bénéficier d'une plus grande souplesse statutaire. L'un des associés minoritaires (15%) s'oppose à cette transformation. Les derniers comptes annuels font apparaître des capitaux propres supérieurs au capital social. Un commissaire aux comptes est en fonction.
+
+Rédigez une note d'analyse complète à destination de M. Dupont détaillant :
+1. Les conditions légales de la transformation (articles L223-43 et suivants du Code de commerce)
+2. La procédure à suivre (rapport du CAC, décision des associés, formalités)
+3. Les conséquences de l'opposition de l'associé minoritaire
+4. Les effets juridiques de la transformation sur la société, les associés et les salariés
+5. Les risques et points de vigilance",N/A,"[Structure]
+S1 (1pt) : La réponse est structurée sous forme de note professionnelle avec introduction, parties numérotées et conclusion
+S2 (1pt) : Les différentes étapes de la procédure sont présentées dans un ordre chronologique logique
+
+[Style]
+ST1 (1pt) : Ton professionnel d'avocat conseil, langage juridique précis
+ST2 (1pt) : Références aux articles du Code de commerce citées correctement
+
+[Substance]
+SUB1 (2pts) : Mentionne que la transformation d'une SARL en SAS requiert l'unanimité des associés (art. L227-3 C. com.)
+SUB2 (2pts) : Explique que l'opposition d'un associé minoritaire bloque la transformation en raison de l'exigence d'unanimité
+SUB3 (1pt) : Mentionne l'intervention obligatoire du commissaire aux comptes ou d'un commissaire à la transformation (art. L224-3 C. com.)
+SUB4 (1pt) : Indique que le CAC doit attester que les capitaux propres sont au moins égaux au capital social
+SUB5 (1pt) : Précise que la transformation n'entraîne pas création d'une personne morale nouvelle (continuité juridique)
+SUB6 (1pt) : Mentionne le maintien automatique des contrats de travail (art. L1224-1 C. trav.)
+SUB7 (1pt) : Évoque les formalités de publicité (JAL, greffe, RCS, BODACC)
+SUB8 (1pt) : Suggère des alternatives en cas de blocage (rachat des parts du minoritaire, cession partielle, SAS nouvelle)
+
+[Méthodologie]
+M1 (1pt) : Distingue clairement les conditions de fond et les conditions de forme
+M2 (1pt) : Propose une stratégie pour surmonter l'opposition du minoritaire
+
+[Négatif]
+N1 (-1pt) : Hallucination factuelle (ex : indiquer qu'une majorité des 2/3 suffit)
+N2 (-0.5pt) : Information exacte mais hors sujet
+N3 (-1pt) : Confusion entre transformation et fusion/scission"
+2,Droit Privé,Corporate / Sociétés,Rédaction,Pacte d'actionnaires SAS — clause de sortie conjointe,"Vous êtes avocat spécialisé en droit des sociétés et du M&A. Votre client est une start-up SAS dans le domaine de la healthtech, avec trois fondateurs (détenant respectivement 40%, 35% et 25% du capital) et un investisseur institutionnel qui s'apprête à entrer au capital pour 20% via une augmentation de capital de 2 millions d'euros. L'investisseur exige un pacte d'actionnaires incluant notamment une clause de sortie conjointe (tag-along) et une clause d'entraînement (drag-along).
+
+Rédigez les clauses de tag-along et de drag-along du pacte d'actionnaires en veillant à :
+1. Définir précisément le mécanisme de chaque clause et les seuils de déclenchement
+2. Prévoir les modalités de notification et les délais
+3. Inclure les conditions de prix et les modalités de valorisation
+4. Anticiper les cas de non-respect et les sanctions (clause pénale, promesse de vente)
+5. Articuler ces clauses avec les éventuelles clauses d'agrément statutaires",N/A,"[Structure]
+S1 (2pts) : Les clauses sont rédigées dans un format contractuel professionnel avec articles numérotés, définitions et chapeau
+S2 (1pt) : Séparation claire entre la clause de tag-along et la clause de drag-along
+
+[Style]
+ST1 (1pt) : Rédaction en style contractuel formel avec vocabulaire juridique approprié
+ST2 (1pt) : Formulations précises et non ambiguës, évitant les zones grises
+
+[Substance]
+SUB1 (2pts) : La clause de tag-along permet aux minoritaires de céder leurs titres aux mêmes conditions que le cédant majoritaire
+SUB2 (2pts) : La clause de drag-along permet au(x) majoritaire(s) dépassant un certain seuil d'obliger les minoritaires à vendre
+SUB3 (1pt) : Définition d'un seuil de déclenchement pertinent pour le drag-along (ex : détention de plus de 50% ou 66%)
+SUB4 (1pt) : Prévision d'un mécanisme de notification écrite avec délai de réponse (ex : 30 jours)
+SUB5 (1pt) : Clause de prix garantissant des conditions identiques (même prix par action, mêmes garanties)
+SUB6 (1pt) : Mécanisme de sanction en cas de non-respect : promesse unilatérale de vente ou clause pénale
+SUB7 (1pt) : Mention de l'articulation avec la clause d'agrément statutaire (primauté ou dérogation)
+SUB8 (1pt) : Prise en compte de la jurisprudence sur la validité des clauses de drag-along (Cass. com.)
+SUB9 (1pt) : Exclusion ou traitement des transferts intra-groupe et des transferts à des affiliés
+
+[Méthodologie]
+M1 (1pt) : Prise en compte des intérêts divergents des fondateurs et de l'investisseur
+
+[Négatif]
+N1 (-1pt) : Hallucination sur un article de loi inexistant
+N2 (-0.5pt) : Clause juridiquement invalide ou potestative
+N3 (-1pt) : Confusion entre tag-along et drag-along dans les mécanismes décrits"
+3,Droit Privé,Contrats,Analyse de documents,Clause limitative de responsabilité B2B,"Vous êtes avocat en droit des contrats. Un client, société éditrice de logiciels SaaS (PME de 50 salariés), vous consulte au sujet d'un contrat-cadre de prestation de services informatiques qu'elle s'apprête à signer avec un grand groupe industriel du CAC 40. Le contrat contient la clause suivante :
+
+« Article 12 — Limitation de responsabilité : En tout état de cause, la responsabilité totale du Prestataire au titre du présent Contrat, quelle qu'en soit la cause, est limitée au montant des sommes effectivement perçues par le Prestataire au cours des douze (12) derniers mois précédant le fait générateur du dommage. Le Prestataire ne saurait en aucun cas être tenu responsable des dommages indirects, pertes de données, pertes d'exploitation, pertes de chiffre d'affaires ou de bénéfices, même s'il a été informé de la possibilité de tels dommages. »
+
+Rédigez une note analysant la validité et l'opposabilité de cette clause au regard du droit français des contrats, en tenant compte de la réforme de 2016 et de la jurisprudence récente. Indiquez si votre client doit accepter, renégocier ou refuser cette clause, avec des recommandations précises.",N/A,"[Structure]
+S1 (1pt) : Note structurée avec rappel des faits, analyse juridique et recommandations pratiques
+S2 (1pt) : Distinction claire entre la validité de principe et les limites d'opposabilité
+
+[Style]
+ST1 (1pt) : Langage juridique professionnel adapté à un client averti
+ST2 (1pt) : Références précises aux textes et à la jurisprudence
+
+[Substance]
+SUB1 (2pts) : Rappelle le principe de validité des clauses limitatives de responsabilité en matière contractuelle entre professionnels (B2B)
+SUB2 (2pts) : Mentionne la limite posée par l'article 1170 du Code civil (réforme 2016) : la clause ne peut priver de sa substance l'obligation essentielle du débiteur (codification de la jurisprudence Chronopost/Faurecia)
+SUB3 (1pt) : Cite l'arrêt Chronopost (Cass. com., 22 octobre 1996) et/ou Faurecia (Cass. com., 29 juin 2010)
+SUB4 (1pt) : Analyse si l'exclusion des dommages indirects est compatible avec l'obligation essentielle du prestataire SaaS (disponibilité, intégrité des données)
+SUB5 (1pt) : Mentionne que la clause ne peut exonérer de la responsabilité pour faute lourde ou dol (art. 1231-3 C. civ.)
+SUB6 (1pt) : Analyse le déséquilibre significatif potentiel (art. 1171 C. civ. pour les contrats d'adhésion)
+SUB7 (1pt) : Évalue si le contrat est un contrat d'adhésion au sens de l'art. 1110 C. civ.
+SUB8 (1pt) : Recommandations concrètes : renégocier le plafond, exclure les cas de faute lourde, prévoir des exceptions pour les données personnelles
+
+[Méthodologie]
+M1 (1pt) : Analyse des intérêts de chaque partie pour formuler des recommandations équilibrées
+
+[Négatif]
+N1 (-1pt) : Affirmer que les clauses limitatives sont toujours nulles entre professionnels
+N2 (-1pt) : Hallucination d'un arrêt de jurisprudence inexistant
+N3 (-0.5pt) : Omission totale de la réforme de 2016 dans l'analyse"
+4,Droit Privé,Contrats,Recherche juridique,Réforme du droit des contrats — Ordonnance 2016-131,"Vous êtes collaborateur dans un cabinet d'affaires. L'associé responsable du département contrats vous demande de rédiger une note de synthèse à usage interne sur les principales innovations de l'ordonnance n° 2016-131 du 10 février 2016 portant réforme du droit des contrats, du régime général et de la preuve des obligations, telle que ratifiée et modifiée par la loi du 20 avril 2018.
+
+Votre note doit couvrir :
+1. Les apports majeurs en matière de formation du contrat (négociation, offre et acceptation, vices du consentement)
+2. Les innovations relatives au contenu du contrat (clauses abusives entre professionnels, imprévision)
+3. Les nouvelles dispositions sur l'inexécution (exception d'inexécution par anticipation, réduction du prix, résolution unilatérale)
+4. Les règles de droit transitoire et la jurisprudence sur l'application dans le temps
+5. L'impact pratique pour le cabinet et ses clients",N/A,"[Structure]
+S1 (1pt) : Note de synthèse structurée avec sommaire et parties thématiques
+S2 (1pt) : Présentation systématique : ancien droit → nouveau droit → impact pratique
+
+[Style]
+ST1 (1pt) : Style synthétique adapté à une note interne de cabinet
+ST2 (1pt) : Citations précises des nouveaux articles du Code civil
+
+[Substance]
+SUB1 (2pts) : Mentionne l'introduction de l'obligation de bonne foi dans les négociations précontractuelles (art. 1112 C. civ.) et la responsabilité pour rupture abusive
+SUB2 (2pts) : Explique l'introduction de la théorie de l'imprévision (art. 1195 C. civ.) — renégociation, puis révision ou résiliation judiciaire — et son caractère supplétif
+SUB3 (1pt) : Mentionne la consécration des clauses abusives entre professionnels dans les contrats d'adhésion (art. 1171 C. civ.)
+SUB4 (1pt) : Explique l'exception d'inexécution par anticipation (art. 1220 C. civ.)
+SUB5 (1pt) : Mentionne la réduction unilatérale du prix en cas d'exécution imparfaite (art. 1223 C. civ.)
+SUB6 (1pt) : Mentionne la résolution unilatérale par notification (art. 1226 C. civ.)
+SUB7 (1pt) : Précise les règles de droit transitoire : application aux contrats conclus après le 1er octobre 2016 (art. 9 de l'ordonnance)
+SUB8 (1pt) : Mentionne la codification de la violence économique (art. 1143 C. civ.)
+
+[Méthodologie]
+M1 (1pt) : Identifie les implications pratiques pour la rédaction des contrats du cabinet
+M2 (1pt) : Distingue les dispositions supplétives des dispositions impératives
+
+[Négatif]
+N1 (-1pt) : Erreur sur la date d'entrée en vigueur de la réforme
+N2 (-1pt) : Confusion entre l'ordonnance de 2016 et la loi de ratification de 2018
+N3 (-0.5pt) : Omission d'une innovation majeure (imprévision ou clauses abusives)"
+5,Droit Privé,Travail,Analyse de documents,Licenciement économique collectif — conditions de validité,"Vous êtes avocat en droit social. Une entreprise industrielle de 350 salariés, filiale d'un groupe international de 5 000 salariés, vous consulte. Elle envisage de supprimer 45 postes dans le cadre d'une réorganisation liée à la baisse durable de ses commandes (-30% sur 3 trimestres consécutifs). L'entreprise n'a pas de CSE en place (les élections professionnelles ont été reportées).
+
+Rédigez une note d'analyse complète sur :
+1. La qualification du motif économique et le périmètre d'appréciation (entreprise vs. groupe/secteur d'activité)
+2. La procédure applicable (PSE obligatoire, consultation du CSE, DREETS)
+3. Les obligations de reclassement
+4. Les conséquences de l'absence de CSE
+5. Les risques contentieux et les sanctions encourues",N/A,"[Structure]
+S1 (1pt) : Note structurée avec identification du problème juridique, analyse et recommandations
+S2 (1pt) : Traitement séparé des questions de fond (motif) et de procédure
+
+[Style]
+ST1 (1pt) : Vocabulaire de droit social précis, références aux articles du Code du travail
+
+[Substance]
+SUB1 (2pts) : Identifie que le motif économique doit être apprécié au niveau du secteur d'activité du groupe pour les entreprises appartenant à un groupe (art. L1233-3 C. trav. modifié par ordonnances Macron 2017)
+SUB2 (2pts) : Mentionne l'obligation d'établir un PSE (Plan de Sauvegarde de l'Emploi) pour tout licenciement de 10 salariés ou plus sur 30 jours dans une entreprise de 50+ salariés (art. L1233-61 C. trav.)
+SUB3 (1pt) : Précise les critères de la baisse durable des commandes/du CA : 3 trimestres consécutifs pour une entreprise de 300 à 999 salariés (art. L1233-3 C. trav.)
+SUB4 (1pt) : Mentionne l'obligation de reclassement préalable (art. L1233-4 C. trav.), y compris au sein du groupe et à l'étranger (avec accord du salarié)
+SUB5 (1pt) : Explique que le PSE doit être soit négocié (accord majoritaire) soit établi par document unilatéral homologué/validé par la DREETS
+SUB6 (1pt) : Analyse les conséquences de l'absence de CSE : obligation de mettre en place un CSE ou de dresser un PV de carence, risque de nullité de la procédure
+SUB7 (1pt) : Mentionne la notification à la DREETS (ex-DIRECCTE) et le contrôle administratif
+SUB8 (1pt) : Identifie les sanctions : nullité du licenciement, réintégration, indemnités (art. L1235-10 et L1235-11 C. trav.)
+
+[Méthodologie]
+M1 (1pt) : Propose un calendrier procédural réaliste
+M2 (1pt) : Identifie les risques majeurs et propose des mesures de mitigation
+
+[Négatif]
+N1 (-1pt) : Erreur sur le seuil déclenchant l'obligation de PSE
+N2 (-1pt) : Hallucination sur le périmètre d'appréciation du motif économique
+N3 (-0.5pt) : Omission de l'obligation de reclassement"
+6,Droit Privé,Travail,Recherche juridique,Rupture conventionnelle collective — Art. L1237-19 C. trav.,"Vous êtes avocat spécialisé en droit social au sein d'un cabinet d'affaires. Un DRH d'une entreprise de services numériques (800 salariés) vous consulte. L'entreprise souhaite réduire ses effectifs de 60 personnes sans procéder à des licenciements économiques. Le DRH envisage de recourir au dispositif de rupture conventionnelle collective (RCC) introduit par les ordonnances Macron de septembre 2017.
+
+Rédigez une note complète présentant :
+1. Le cadre juridique de la RCC (articles L1237-19 à L1237-19-14 du Code du travail)
+2. Les conditions de mise en oeuvre (accord collectif majoritaire, contenu obligatoire)
+3. La procédure de validation par la DREETS
+4. Les droits des salariés volontaires (indemnité, allocations chômage, clause de non-reclassement)
+5. Les avantages et limites par rapport au PSE
+6. La jurisprudence récente et les positions de la DREETS",N/A,"[Structure]
+S1 (1pt) : Note professionnelle avec plan clair distinguant cadre juridique, procédure, et analyse comparative
+S2 (1pt) : Tableau comparatif RCC/PSE ou présentation synthétique des différences
+
+[Style]
+ST1 (1pt) : Rédaction juridique précise avec références aux articles du Code du travail
+ST2 (1pt) : Ton adapté à un interlocuteur RH (pédagogique sans être simpliste)
+
+[Substance]
+SUB1 (2pts) : Explique que la RCC nécessite un accord collectif majoritaire (signé par des syndicats représentant plus de 50% des suffrages aux dernières élections)
+SUB2 (2pts) : Précise que la RCC est fondée exclusivement sur le volontariat et exclut tout licenciement pour atteindre l'objectif de suppression de postes pendant la durée de l'accord
+SUB3 (1pt) : Détaille le contenu obligatoire de l'accord : nombre maximal de départs, conditions d'éligibilité, modalités de calcul des indemnités (au moins égales à l'indemnité légale de licenciement), mesures de reclassement externe
+SUB4 (1pt) : Mentionne la procédure de validation par la DREETS (délai de 15 jours, silence vaut acceptation)
+SUB5 (1pt) : Précise que les salariés dont la rupture est acceptée bénéficient de l'assurance chômage (contrairement à la rupture conventionnelle individuelle avant 2023)
+SUB6 (1pt) : Mentionne l'information obligatoire du CSE sur le projet d'accord
+SUB7 (1pt) : Indique les avantages de la RCC : pas d'obligation de motif économique, pas de plan de reclassement interne, procédure plus rapide
+SUB8 (1pt) : Identifie les limites : risque de requalification si le volontariat n'est pas réel, contrôle DREETS sur les mesures d'accompagnement
+
+[Méthodologie]
+M1 (1pt) : Propose un rétroplanning de mise en oeuvre réaliste
+
+[Négatif]
+N1 (-1pt) : Affirmer que la RCC ne nécessite pas d'accord collectif
+N2 (-1pt) : Erreur sur les conditions d'accès à l'assurance chômage
+N3 (-0.5pt) : Confusion entre RCC et plan de départs volontaires autonome"
+7,Droit Privé,Propriété intellectuelle,Analyse de jurisprudence,Contrefaçon de marque — action civile,"Vous êtes avocat en propriété intellectuelle. Une société française de cosmétiques, titulaire d'une marque de l'UE et d'une marque française enregistrée depuis 8 ans, découvre qu'un concurrent commercialise en France des produits sous un signe quasi-identique pour des produits similaires. Le concurrent est une société de droit français. Les produits contrefaisants sont vendus en ligne et dans des boutiques physiques en France.
+
+Rédigez une note d'analyse complète sur :
+1. La caractérisation de la contrefaçon de marque (risque de confusion, identité/similarité des signes et des produits)
+2. Les fondements de l'action civile en contrefaçon (CPI, art. L716-4 et suivants)
+3. Les mesures provisoires et conservatoires disponibles (saisie-contrefaçon, référé)
+4. L'évaluation et les modes de calcul des dommages et intérêts (art. L716-4-10 CPI)
+5. La stratégie procédurale recommandée (juridiction compétente, articulation marque française / marque UE)",N/A,"[Structure]
+S1 (1pt) : Note structurée avec analyse de la contrefaçon, arsenal procédural et stratégie recommandée
+S2 (1pt) : Présentation chronologique de la stratégie (saisie-contrefaçon → référé → fond)
+
+[Style]
+ST1 (1pt) : Vocabulaire de propriété intellectuelle précis (risque de confusion, impression d'ensemble, saisie-contrefaçon)
+ST2 (1pt) : Références au CPI et au RMUE citées correctement
+
+[Substance]
+SUB1 (2pts) : Analyse du risque de confusion selon les critères classiques : similarité des signes (visuelle, phonétique, conceptuelle) et similarité des produits/services, en tenant compte du caractère distinctif de la marque antérieure
+SUB2 (1pt) : Mentionne la saisie-contrefaçon (art. L716-4-7 CPI) comme mesure probatoire préalable indispensable, réalisée sur autorisation du président du TJ
+SUB3 (1pt) : Explique la possibilité de référé-interdiction (art. L716-4-6 CPI) pour obtenir des mesures provisoires rapides
+SUB4 (2pts) : Détaille les trois modes de calcul des dommages et intérêts (art. L716-4-10 CPI) : conséquences économiques négatives, bénéfices réalisés par le contrefacteur, ou redevance hypothétique
+SUB5 (1pt) : Mentionne la compétence exclusive du TJ (tribunaux judiciaires spécialisés en PI) pour la marque française
+SUB6 (1pt) : Indique que pour la marque de l'UE, les tribunaux des marques de l'UE (TJ Paris) sont compétents en vertu du RMUE (Règlement 2017/1001)
+SUB7 (1pt) : Évoque la prescription de l'action en contrefaçon (5 ans à compter de la connaissance des faits)
+
+[Méthodologie]
+M1 (1pt) : Recommande une stratégie séquentielle claire avec les étapes et délais estimés
+
+[Négatif]
+N1 (-1pt) : Erreur sur la juridiction compétente en matière de marques
+N2 (-1pt) : Hallucination d'un article du CPI inexistant
+N3 (-0.5pt) : Omission de la saisie-contrefaçon dans la stratégie"
+8,Droit Privé,Bancaire & Financier,Risques & Conformité,Obligations de conformité AMF pour les PSI,"Vous êtes avocat en droit bancaire et financier. Un prestataire de services d'investissement (PSI) agréé par l'ACPR, qui exerce l'activité de gestion de portefeuille pour le compte de tiers et de conseil en investissement, vous consulte sur ses obligations de conformité au regard de la réglementation AMF. Le PSI gère environ 500 millions d'euros d'actifs pour une clientèle mixte (particuliers et institutionnels). Il souhaite lancer un nouveau service de gestion sous mandat intégrant des critères ESG.
+
+Rédigez une note sur :
+1. Les obligations de conformité générales du PSI (règlement général AMF, transposition MiFID II)
+2. Les obligations spécifiques en matière de gouvernance produit et de classification des clients
+3. Les exigences relatives à l'intégration des préférences ESG (règlement SFDR, taxonomie)
+4. Le dispositif de contrôle interne requis (RCCI, RCSI, contrôle permanent et périodique)
+5. Les sanctions en cas de manquement",N/A,"[Structure]
+S1 (1pt) : Note organisée par thématiques réglementaires avec hiérarchie claire des obligations
+S2 (1pt) : Distinction entre obligations permanentes et obligations spécifiques au lancement du nouveau service
+
+[Style]
+ST1 (1pt) : Vocabulaire réglementaire financier précis (best execution, suitability, target market)
+ST2 (1pt) : Références au RGAMF, à MiFID II/MiFIR et aux règlements européens pertinents
+
+[Substance]
+SUB1 (2pts) : Détaille les obligations MiFID II transposées : test d'adéquation (suitability) pour la gestion sous mandat, meilleure exécution, gestion des conflits d'intérêts, transparence des coûts
+SUB2 (1pt) : Explique les obligations de gouvernance produit (product governance) : définition du marché cible (target market), processus d'approbation des produits
+SUB3 (1pt) : Mentionne la classification des clients (retail, professionnel, contrepartie éligible) et les conséquences sur le niveau de protection
+SUB4 (2pts) : Détaille les obligations SFDR (Sustainable Finance Disclosure Regulation) : classification du produit (art. 6, 8 ou 9 SFDR), obligations de transparence pré-contractuelle et périodique
+SUB5 (1pt) : Mentionne l'obligation d'intégrer les préférences en matière de durabilité dans le test d'adéquation (modification MiFID II par acte délégué 2021/1253)
+SUB6 (1pt) : Décrit le dispositif de contrôle interne : RCCI (responsable de la conformité et du contrôle interne) obligatoire, plan de contrôle permanent et périodique
+SUB7 (1pt) : Mentionne le pouvoir de sanction de l'AMF : commission des sanctions, sanctions pécuniaires jusqu'à 100 millions d'euros ou 10% du CA
+
+[Méthodologie]
+M1 (1pt) : Propose un plan d'action concret pour le lancement du service ESG
+
+[Négatif]
+N1 (-1pt) : Confusion entre les rôles de l'AMF et de l'ACPR
+N2 (-1pt) : Erreur sur la classification SFDR des produits financiers
+N3 (-0.5pt) : Omission des obligations de transparence ESG pré-contractuelles"
+9,Contentieux,Commercial,Rédaction,Assignation en concurrence déloyale — moyens,"Vous êtes avocat plaidant en droit commercial. Votre client est une société française spécialisée dans la distribution de matériel de bureau haut de gamme (CA : 12 M euros). Un ancien directeur commercial de votre client a quitté l'entreprise il y a 6 mois sans clause de non-concurrence et a créé une société concurrente. Depuis, votre client constate :
+- Le débauchage systématique de 4 commerciaux clés (sur 10)
+- La reprise quasi-identique de son catalogue produits et de sa charte graphique commerciale
+- Le démarchage ciblé de ses 15 plus gros clients avec des offres à prix cassés
+- L'utilisation de fichiers clients qui auraient été copiés avant le départ
+
+Rédigez les moyens de droit et de fait pour une assignation en concurrence déloyale et parasitisme devant le tribunal de commerce compétent.",N/A,"[Structure]
+S1 (2pts) : Rédaction sous forme de moyens d'assignation avec structure professionnelle : visa des textes, exposé des faits, discussion juridique, demandes
+S2 (1pt) : Distinction claire entre les faits constitutifs de concurrence déloyale et ceux relevant du parasitisme
+
+[Style]
+ST1 (1pt) : Style contentieux formel adapté à une assignation devant le tribunal de commerce
+ST2 (1pt) : Formulations juridiques de conclusions (""Il sera démontré que..."", ""Au visa de l'article..."")
+
+[Substance]
+SUB1 (2pts) : Fonde l'action sur les articles 1240 et 1241 du Code civil (responsabilité délictuelle) — fondement de la concurrence déloyale en droit français
+SUB2 (1pt) : Caractérise le débauchage massif et ciblé comme acte de concurrence déloyale (jurisprudence constante Cass. com.)
+SUB3 (1pt) : Qualifie la reprise de la charte graphique et du catalogue comme acte de parasitisme (Cass. com., 26 janvier 1999) — captation de la valeur économique d'autrui
+SUB4 (1pt) : Analyse le démarchage ciblé avec prix cassés comme acte de désorganisation commerciale
+SUB5 (1pt) : Qualifie l'utilisation de fichiers clients copiés comme acte de concurrence déloyale (détournement de fichiers, violation du secret des affaires — loi du 30 juillet 2018)
+SUB6 (1pt) : Mentionne que l'absence de clause de non-concurrence n'empêche pas l'action en concurrence déloyale (la liberté du commerce a des limites)
+SUB7 (1pt) : Évalue le préjudice : perte de marge, coût de remplacement des salariés, atteinte à l'image, trouble commercial
+SUB8 (1pt) : Demande de mesures provisoires ou d'expertise pour chiffrer le préjudice
+
+[Méthodologie]
+M1 (1pt) : Propose des mesures probatoires (constat d'huissier, expertise informatique) pour établir la copie des fichiers
+
+[Négatif]
+N1 (-1pt) : Fonder l'action sur un texte inapplicable (ex : article L442-1 C. com. sans relation commerciale établie)
+N2 (-1pt) : Hallucination d'une jurisprudence inexistante
+N3 (-0.5pt) : Omission de la distinction entre concurrence déloyale et parasitisme"
+10,Contentieux,Administratif,Qualification juridique,Recevabilité du recours pour excès de pouvoir,"Vous êtes avocat en droit public. Une association de protection de l'environnement, agréée au titre de l'article L141-1 du Code de l'environnement, souhaite contester un arrêté préfectoral autorisant l'exploitation d'une installation classée pour la protection de l'environnement (ICPE) de type Seveso seuil haut, située à proximité d'une zone Natura 2000. L'arrêté a été notifié au pétitionnaire le 15 janvier 2025 et publié au recueil des actes administratifs le 20 janvier 2025.
+
+L'association vous consulte le 15 mars 2025. Rédigez une note analysant les conditions de recevabilité d'un recours pour excès de pouvoir (REP) contre cet arrêté, en examinant :
+1. La nature de l'acte attaqué et sa contestabilité
+2. L'intérêt à agir de l'association
+3. Les délais de recours applicables
+4. Les moyens de légalité externe et interne invocables
+5. La possibilité d'un référé-suspension concomitant",N/A,"[Structure]
+S1 (1pt) : Note structurée distinguant recevabilité (conditions de l'action) et fond (moyens invocables)
+S2 (1pt) : Analyse systématique des conditions de recevabilité dans l'ordre classique
+
+[Style]
+ST1 (1pt) : Vocabulaire de contentieux administratif précis (REP, légalité externe/interne, moyen d'ordre public)
+ST2 (1pt) : Références au CJA et au Code de l'environnement
+
+[Substance]
+SUB1 (1pt) : Qualifie l'arrêté préfectoral d'autorisation ICPE comme un acte administratif individuel faisant grief, susceptible de REP
+SUB2 (2pts) : Analyse l'intérêt à agir de l'association : agrément environnemental (art. L141-1 C. env.), objet statutaire en lien avec la décision, périmètre géographique de l'agrément couvrant la zone concernée
+SUB3 (2pts) : Détermine le délai de recours : pour les tiers, le délai court à compter de la publication ou de l'affichage (et non de la notification réservée au pétitionnaire) — délai de 2 mois à compter de la publicité la plus tardive, en tenant compte du régime spécial des décisions ICPE (art. R514-3-1 C. env. : délai de 4 mois pour les tiers)
+SUB4 (1pt) : Vérifie que le recours est encore recevable à la date de la consultation
+SUB5 (1pt) : Identifie les moyens de légalité externe : incompétence, vice de procédure (enquête publique, avis de l'autorité environnementale, consultation du CODERST)
+SUB6 (1pt) : Identifie les moyens de légalité interne : erreur de droit, erreur d'appréciation sur l'évaluation environnementale, violation du principe de précaution, atteinte aux sites Natura 2000
+SUB7 (1pt) : Analyse la possibilité d'un référé-suspension (art. L521-1 CJA) : condition d'urgence et moyen sérieux
+
+[Méthodologie]
+M1 (1pt) : Recommande une stratégie contentieuse combinant REP au fond et référé-suspension
+
+[Négatif]
+N1 (-1pt) : Erreur sur le point de départ du délai de recours pour les tiers
+N2 (-1pt) : Confusion entre REP et recours de plein contentieux
+N3 (-0.5pt) : Omission du régime spécial ICPE pour les délais de recours des tiers"
+11,Contentieux,Pénal des affaires,Qualification juridique,Éléments constitutifs de l'abus de biens sociaux,"Vous êtes avocat pénaliste spécialisé en droit pénal des affaires. Le directeur juridique d'un groupe familial de sociétés vous consulte. Le PDG d'une filiale SAS du groupe (CA : 20 M euros) a fait réaliser par la société des travaux d'aménagement dans sa résidence secondaire personnelle pour un montant de 180 000 euros, comptabilisés comme ""travaux d'entretien du siège social"". Par ailleurs, il a fait prendre en charge par la société les frais de scolarité de ses enfants dans une école privée suisse (45 000 euros/an), présentés comme des ""frais de formation"". Le commissaire aux comptes, lors de sa mission, a signalé ces anomalies au directeur juridique.
+
+Rédigez une note d'analyse sur :
+1. La caractérisation de l'infraction d'abus de biens sociaux (art. L242-6, 3° et 4° C. com.)
+2. Les éléments matériel et intentionnel de l'infraction dans ce cas d'espèce
+3. La responsabilité pénale des différents intervenants
+4. Les obligations du commissaire aux comptes (révélation des faits délictueux)
+5. Les options procédurales (plainte, constitution de partie civile, signalement)",N/A,"[Structure]
+S1 (1pt) : Note structurée avec qualification pénale, analyse des faits et options procédurales
+S2 (1pt) : Traitement séparé de chaque fait (travaux et frais de scolarité)
+
+[Style]
+ST1 (1pt) : Vocabulaire pénal précis (élément matériel, élément intentionnel, usage contraire à l'intérêt social)
+ST2 (1pt) : Références aux articles du Code de commerce et du Code pénal
+
+[Substance]
+SUB1 (2pts) : Définit les éléments constitutifs de l'ABS (art. L242-6, 3° C. com. pour SAS par renvoi) : usage des biens ou du crédit de la société, contraire à l'intérêt social, à des fins personnelles, en connaissance de cause
+SUB2 (2pts) : Caractérise l'élément matériel dans les deux situations : détournement de fonds sociaux (travaux personnels imputés à la société, frais de scolarité sans lien avec l'objet social)
+SUB3 (1pt) : Analyse l'élément intentionnel : le PDG savait que l'usage était contraire à l'intérêt social (dissimulation comptable = indice du dol)
+SUB4 (1pt) : Mentionne la prescription de l'ABS : 6 ans à compter de la commission des faits, avec report du point de départ en cas de dissimulation (jurisprudence constante, Cass. crim.)
+SUB5 (1pt) : Explique l'obligation du CAC de révéler les faits délictueux au procureur de la République (art. L823-12 C. com.) sous peine de sanctions disciplinaires et pénales
+SUB6 (1pt) : Mentionne les peines encourues : 5 ans d'emprisonnement et 375 000 euros d'amende
+SUB7 (1pt) : Analyse la possibilité de constitution de partie civile de la société (via ses organes sociaux ou un actionnaire agissant ut singuli)
+SUB8 (1pt) : Évoque la responsabilité pénale potentielle des complices (comptable ayant enregistré les écritures fictives)
+
+[Méthodologie]
+M1 (1pt) : Distingue les voies d'action : plainte pénale, constitution de partie civile, action sociale ut singuli
+
+[Négatif]
+N1 (-1pt) : Erreur sur les éléments constitutifs de l'ABS
+N2 (-1pt) : Confusion entre ABS et abus de confiance
+N3 (-0.5pt) : Omission de l'obligation de révélation du CAC"
+12,Contentieux,RGPD / Données,Analyse de documents,Licéité du traitement de données — Art. 6 RGPD,"Vous êtes DPO externe (délégué à la protection des données) pour une chaîne de magasins de sport comptant 200 points de vente en France. La direction marketing souhaite mettre en place un programme de fidélité qui implique :
+- La collecte de données d'identification (nom, prénom, email, téléphone, date de naissance)
+- Le suivi des achats en magasin et en ligne pour personnaliser les offres
+- La géolocalisation via l'application mobile pour envoyer des notifications push à proximité des magasins
+- Le profilage des clients pour segmenter les offres marketing
+- Le partage des données avec des partenaires commerciaux sélectionnés pour des offres croisées
+
+Rédigez une note d'analyse sur les conditions de licéité de chaque traitement au regard de l'article 6 du RGPD et de la loi Informatique et Libertés modifiée, en identifiant :
+1. La base légale appropriée pour chaque traitement
+2. Les conditions de validité du consentement le cas échéant
+3. Les obligations d'information (art. 13 et 14 RGPD)
+4. La nécessité d'une analyse d'impact (AIPD)
+5. Les droits des personnes concernées et les modalités d'exercice",N/A,"[Structure]
+S1 (1pt) : Note structurée par type de traitement avec analyse de la base légale pour chacun
+S2 (1pt) : Tableau récapitulatif ou synthèse des bases légales par traitement
+
+[Style]
+ST1 (1pt) : Vocabulaire RGPD précis (responsable de traitement, base légale, intérêt légitime, AIPD)
+ST2 (1pt) : Références aux articles du RGPD et aux lignes directrices du CEPD/CNIL
+
+[Substance]
+SUB1 (2pts) : Identifie correctement les bases légales : exécution du contrat (art. 6.1.b) pour la gestion de la fidélité, consentement (art. 6.1.a) pour la géolocalisation et le profilage marketing, intérêt légitime (art. 6.1.f) possible pour certaines personnalisations
+SUB2 (2pts) : Précise que le consentement pour la géolocalisation et le partage avec des tiers doit être libre, spécifique, éclairé et univoque (art. 4.11 RGPD), et non conditionné à l'adhésion au programme
+SUB3 (1pt) : Mentionne la nécessité d'une AIPD (art. 35 RGPD) pour le profilage à grande échelle et la géolocalisation (critères de la liste CNIL)
+SUB4 (1pt) : Détaille les obligations d'information : identité du responsable, finalités, base légale, destinataires, durée de conservation, droits, transferts hors UE
+SUB5 (1pt) : Identifie le droit d'opposition au profilage (art. 21 RGPD) et le droit à la portabilité (art. 20 RGPD)
+SUB6 (1pt) : Mentionne la nécessité d'un contrat de sous-traitance (art. 28 RGPD) avec les partenaires commerciaux ou leur qualification de responsables conjoints (art. 26)
+SUB7 (1pt) : Rappelle les recommandations de la CNIL sur les durées de conservation (3 ans d'inactivité pour la prospection commerciale)
+SUB8 (1pt) : Mentionne les règles spécifiques de la directive ePrivacy (art. 5.3) transposée en droit français (art. 82 loi Informatique et Libertés) pour les cookies et traceurs
+
+[Méthodologie]
+M1 (1pt) : Propose un plan de mise en conformité avec priorisation des actions
+
+[Négatif]
+N1 (-1pt) : Erreur sur la base légale applicable (ex : consentement obligatoire pour tout traitement)
+N2 (-1pt) : Omission de la nécessité d'une AIPD pour le profilage
+N3 (-0.5pt) : Confusion entre responsable de traitement et sous-traitant"
+13,Contentieux,RGPD / Données,Recherche juridique,Pouvoirs de sanction de la CNIL post-RGPD,"Vous êtes avocat spécialisé en droit du numérique et données personnelles. Un client (plateforme de e-commerce) a reçu une mise en demeure de la CNIL à la suite d'une plainte collective déposée par une association de consommateurs. La mise en demeure reproche à la plateforme : (a) l'absence de recueil du consentement pour les cookies publicitaires, (b) une politique de confidentialité insuffisante, (c) un délai de réponse excessif aux demandes d'exercice du droit d'accès.
+
+Rédigez une note d'analyse sur :
+1. La procédure de contrôle et de sanction de la CNIL (loi Informatique et Libertés, titre I chapitre VII)
+2. Les pouvoirs de la formation restreinte (sanctions, injonctions, astreintes)
+3. Les montants de sanctions encourus (RGPD art. 83, historique des sanctions CNIL)
+4. Les voies de recours contre une décision de sanction
+5. La stratégie de réponse à la mise en demeure",N/A,"[Structure]
+S1 (1pt) : Note structurée avec analyse de la procédure, des risques et de la stratégie de réponse
+S2 (1pt) : Présentation chronologique de la procédure CNIL (contrôle → mise en demeure → sanction)
+
+[Style]
+ST1 (1pt) : Vocabulaire juridique et réglementaire précis (formation restreinte, rapporteur, mise en demeure, publicité de la sanction)
+
+[Substance]
+SUB1 (2pts) : Décrit la procédure de sanction CNIL : saisine du président, désignation d'un rapporteur, instruction contradictoire, audition devant la formation restreinte (séparation des fonctions de poursuite et de jugement depuis la réforme de 2019)
+SUB2 (1pt) : Mentionne les pouvoirs de la formation restreinte : rappel à l'ordre, injonction de mise en conformité (avec astreinte jusqu'à 100 000 euros par jour de retard), amende administrative, limitation ou interdiction de traitement
+SUB3 (2pts) : Détaille les plafonds de sanctions : jusqu'à 20 millions d'euros ou 4% du CA mondial annuel (art. 83.5 RGPD) pour les violations les plus graves ; 10 millions ou 2% pour les violations de l'art. 83.4
+SUB4 (1pt) : Cite des exemples de sanctions CNIL marquantes (ex : Amazon 35 M euros en 2020, Google 150 M euros en 2022 pour les cookies, Criteo 40 M euros en 2023)
+SUB5 (1pt) : Mentionne la possibilité de publicité de la sanction (naming and shaming) comme sanction complémentaire
+SUB6 (1pt) : Détaille les voies de recours : recours devant le Conseil d'État (art. L311-1 CJA, compétence en premier et dernier ressort)
+SUB7 (1pt) : Analyse chaque grief : cookies sans consentement = violation art. 82 LIL et recommandation CNIL cookies, politique insuffisante = violation art. 13 RGPD, délai de réponse = violation art. 12.3 RGPD (1 mois)
+SUB8 (1pt) : Mentionne la procédure de coopération européenne (guichet unique) si le traitement est transfrontalier
+
+[Méthodologie]
+M1 (1pt) : Propose une stratégie de réponse à la mise en demeure avec actions correctives et calendrier
+
+[Négatif]
+N1 (-1pt) : Erreur sur la compétence juridictionnelle du recours contre les décisions CNIL
+N2 (-1pt) : Hallucination d'un montant de sanction fictif
+N3 (-0.5pt) : Omission de la procédure contradictoire devant la formation restreinte"
+14,Contentieux,Concurrence FR,Analyse de jurisprudence,Prix abusivement bas — Art. L420-5 C. com.,"Vous êtes avocat en droit de la concurrence. Une PME française spécialisée dans la fabrication de meubles sur mesure (CA : 5 M euros, 40 salariés) vous consulte. Un grand distributeur de meubles (CA : 800 M euros) propose depuis plusieurs mois des meubles sur mesure à des prix très inférieurs à ceux du marché, en dessous de ses propres coûts de production externalisée, dans une zone géographique où votre client réalise 60% de son chiffre d'affaires. Votre client perd des parts de marché significatives.
+
+Rédigez une note analysant :
+1. La qualification de la pratique au regard de l'article L420-5 du Code de commerce (prix abusivement bas)
+2. La distinction avec la revente à perte (art. L442-5 C. com.) et le prix prédateur (art. L420-2 C. com.)
+3. Les éléments de preuve à réunir
+4. Les voies de droit disponibles (saisine de l'Autorité de la concurrence, action en justice)
+5. Les chances de succès au regard de la jurisprudence",N/A,"[Structure]
+S1 (1pt) : Note structurée avec qualification juridique, distinctions, preuves et stratégie
+S2 (1pt) : Présentation comparative claire des trois qualifications possibles (prix abusivement bas, revente à perte, prix prédateur)
+
+[Style]
+ST1 (1pt) : Vocabulaire de droit de la concurrence précis (marché pertinent, effet d'éviction, coûts variables moyens)
+ST2 (1pt) : Références aux articles du Code de commerce et aux décisions de l'Autorité de la concurrence
+
+[Substance]
+SUB1 (2pts) : Analyse l'article L420-5 C. com. : interdiction des offres ou pratiques de prix abusivement bas par rapport aux coûts de production, de transformation et de commercialisation, pour des produits destinés à la vente ou la transformation, dès lors que ces pratiques ont pour objet ou peuvent avoir pour effet d'éliminer un concurrent
+SUB2 (1pt) : Distingue le prix abusivement bas (L420-5) de la revente à perte (L442-2 ancien / L442-5 nouveau) : la revente à perte concerne la revente en l'état en dessous du prix d'achat effectif, non applicable ici puisqu'il s'agit de produits transformés
+SUB3 (1pt) : Distingue le prix prédateur (abus de position dominante, art. L420-2) qui requiert la démonstration d'une position dominante sur le marché pertinent
+SUB4 (1pt) : Identifie les éléments de preuve nécessaires : coûts de production du concurrent, prix pratiqués, lien entre la pratique et le risque d'élimination, définition du marché pertinent géographique et de produit
+SUB5 (1pt) : Mentionne que seul le ministre de l'Économie peut saisir l'Autorité de la concurrence ou agir devant les juridictions sur le fondement de l'art. L420-5 (spécificité procédurale)
+SUB6 (1pt) : Évoque la possibilité d'une action civile en concurrence déloyale (art. 1240 C. civ.) comme voie alternative ou complémentaire
+SUB7 (1pt) : Mentionne la jurisprudence restrictive de l'Autorité de la concurrence sur L420-5 (peu de décisions de condamnation)
+
+[Méthodologie]
+M1 (1pt) : Évalue les chances de succès et recommande la stratégie la plus appropriée
+M2 (1pt) : Identifie les preuves à constituer en priorité (constats, relevés de prix, analyse économique)
+
+[Négatif]
+N1 (-1pt) : Affirmer que la PME peut directement saisir l'Autorité de la concurrence sur le fondement de L420-5
+N2 (-1pt) : Confusion entre les trois régimes (prix abusivement bas, revente à perte, prix prédateur)
+N3 (-0.5pt) : Omission de la spécificité procédurale du ministre de l'Économie"
+15,Contentieux,Commercial,Stratégie de négociation,Garantie des vices cachés — stratégie contentieuse,"Vous êtes avocat en droit commercial. Votre client, une société industrielle, a acquis il y a 14 mois une machine-outil d'occasion auprès d'un vendeur professionnel spécialisé pour un prix de 280 000 euros. La machine présente un défaut de fabrication dans le système hydraulique qui la rend impropre à son usage normal. Le défaut existait antérieurement à la vente mais n'était pas décelable lors d'un examen normal. Votre client a découvert le vice il y a 3 mois lors d'une panne majeure. Le vendeur refuse toute prise en charge, invoquant une clause du contrat excluant toute garantie des vices cachés.
+
+Rédigez une note de stratégie contentieuse complète couvrant :
+1. La qualification du vice caché (art. 1641 et suivants C. civ.)
+2. L'analyse de la clause exonératoire et son opposabilité entre professionnels
+3. Le choix entre action rédhibitoire et action estimatoire
+4. La prescription applicable et les délais
+5. Les mesures conservatoires et probatoires
+6. L'évaluation des chances de succès et la stratégie recommandée",N/A,"[Structure]
+S1 (1pt) : Note de stratégie contentieuse avec analyse juridique, évaluation des risques et recommandations
+S2 (1pt) : Présentation des options stratégiques avec avantages/inconvénients de chacune
+
+[Style]
+ST1 (1pt) : Vocabulaire civiliste et processuel précis (vice rédhibitoire, action estimatoire, expertise in futurum)
+ST2 (1pt) : Références aux articles du Code civil et à la jurisprudence
+
+[Substance]
+SUB1 (2pts) : Caractérise le vice caché selon les quatre conditions de l'art. 1641 C. civ. : vice antérieur à la vente, caché (non apparent), rendant la chose impropre à l'usage ou diminuant tellement cet usage que l'acheteur ne l'aurait pas acquise
+SUB2 (2pts) : Analyse la clause exonératoire : entre professionnels de même spécialité, la clause est en principe valable ; mais le vendeur professionnel est présumé connaître les vices de la chose qu'il vend (présomption irréfragable — Cass. civ. 3e, 27 sept. 2000), ce qui rend la clause potentiellement inopposable pour mauvaise foi
+SUB3 (1pt) : Distingue l'action rédhibitoire (résolution de la vente, restitution du prix) et l'action estimatoire (diminution du prix) de l'art. 1644 C. civ.
+SUB4 (1pt) : Mentionne la prescription : 2 ans à compter de la découverte du vice (art. 1648 al. 1 C. civ.) — le délai court depuis 3 mois, l'action est recevable
+SUB5 (1pt) : Rappelle le délai butoir de la prescription extinctive (5 ans à compter de la vente pour les meubles, art. 2224 C. civ. selon la jurisprudence Cass. civ. 3e, 8 décembre 2021)
+SUB6 (1pt) : Recommande une expertise judiciaire préalable (art. 145 CPC, référé-expertise) pour établir l'antériorité du vice et son caractère caché
+SUB7 (1pt) : Mentionne la possibilité de dommages-intérêts complémentaires si le vendeur connaissait le vice (art. 1645 C. civ.)
+
+[Méthodologie]
+M1 (1pt) : Propose un séquençage stratégique (expertise → mise en demeure → assignation)
+M2 (1pt) : Évalue les chances de succès en tenant compte du profil des parties
+
+[Négatif]
+N1 (-1pt) : Erreur sur le délai de prescription de l'action en garantie des vices cachés
+N2 (-1pt) : Affirmer que la clause exonératoire est toujours nulle entre professionnels
+N3 (-0.5pt) : Omission de la distinction entre action rédhibitoire et estimatoire"
+16,Droit Européen,UE Institutionnel,Recherche juridique,Effet direct des directives — Van Gend en Loos à Marshall,"Vous êtes juriste dans le département droit européen d'un cabinet international. Un associé vous demande de rédiger une note de recherche sur l'évolution de la doctrine de l'effet direct en droit de l'Union européenne, depuis l'arrêt fondateur Van Gend en Loos (1963) jusqu'à la jurisprudence récente, avec un focus particulier sur le régime de l'effet direct des directives.
+
+Votre note doit couvrir :
+1. Le fondement et la portée de l'arrêt Van Gend en Loos (aff. 26/62)
+2. La distinction entre effet direct vertical et horizontal
+3. Le régime spécifique des directives : conditions de l'effet direct vertical (Marshall, aff. 152/84)
+4. L'absence d'effet direct horizontal des directives (Faccini Dori, aff. C-91/92) et les palliatifs jurisprudentiels
+5. L'obligation d'interprétation conforme (Von Colson, Marleasing) et la responsabilité de l'État (Francovich)
+6. Les développements récents et l'articulation avec la Charte des droits fondamentaux",N/A,"[Structure]
+S1 (1pt) : Note de recherche structurée chronologiquement avec analyse de l'évolution jurisprudentielle
+S2 (1pt) : Fil conducteur clair montrant la construction progressive de la doctrine
+
+[Style]
+ST1 (1pt) : Style académique juridique avec citations précises des arrêts (nom, numéro d'affaire, année)
+ST2 (1pt) : Rigueur dans la terminologie du droit de l'UE (effet direct, primauté, invocabilité)
+
+[Substance]
+SUB1 (2pts) : Expose l'arrêt Van Gend en Loos (CJCE, 5 février 1963, aff. 26/62) : le traité CEE crée un ordre juridique propre dont les sujets sont non seulement les États mais aussi les particuliers ; les dispositions claires, précises et inconditionnelles sont directement invocables
+SUB2 (2pts) : Explique le régime des directives : effet direct vertical uniquement (invocable contre l'État ou une émanation de l'État), conditions : directive non transposée dans le délai ou mal transposée, disposition claire, précise et inconditionnelle (CJCE, Marshall, aff. 152/84, 1986)
+SUB3 (1pt) : Mentionne l'arrêt Faccini Dori (CJCE, 14 juillet 1994, aff. C-91/92) : refus de reconnaître l'effet direct horizontal des directives, confirmé par la suite
+SUB4 (1pt) : Explique l'obligation d'interprétation conforme (Von Colson, 1984 ; Marleasing, 1990) : le juge national doit interpréter le droit interne à la lumière de la directive, dans la mesure du possible
+SUB5 (1pt) : Expose le principe Francovich (CJCE, 19 novembre 1991, aff. C-6/90 et C-9/90) : responsabilité de l'État pour défaut de transposition, conditions (directive conférant des droits aux particuliers, contenu identifiable, lien de causalité)
+SUB6 (1pt) : Mentionne la notion large d'émanation de l'État (Foster v. British Gas, aff. C-188/89, 1990) pour élargir l'effet direct vertical
+SUB7 (1pt) : Évoque l'articulation avec la Charte des droits fondamentaux comme vecteur possible d'effet horizontal (Kücükdeveci, aff. C-555/07, 2010 ; Egenberger, aff. C-414/16, 2018)
+
+[Méthodologie]
+M1 (1pt) : Synthétise les implications pratiques pour les avocats et les justiciables
+
+[Négatif]
+N1 (-1pt) : Affirmer que les directives ont un effet direct horizontal
+N2 (-1pt) : Erreur sur les faits ou la portée d'un arrêt majeur cité
+N3 (-0.5pt) : Omission de Francovich ou de l'interprétation conforme comme palliatifs"
+17,Droit Européen,CEDH,Analyse de jurisprudence,Marge d'appréciation dans la jurisprudence CEDH,"Vous êtes juriste spécialisé en droits fondamentaux européens. Dans le cadre d'un colloque sur la subsidiarité du système conventionnel européen, un partenaire du cabinet vous demande de rédiger une note d'analyse approfondie sur la doctrine de la marge d'appréciation telle qu'elle a été développée par la Cour européenne des droits de l'homme.
+
+Votre note doit couvrir :
+1. L'origine et le fondement de la doctrine (Handyside c. Royaume-Uni, 1976)
+2. Les critères de modulation de l'étendue de la marge (consensus européen, nature du droit, enjeux)
+3. L'articulation avec le principe de proportionnalité
+4. Les domaines où la marge est large vs. étroite (exemples jurisprudentiels)
+5. Les critiques de la doctrine et les évolutions récentes (Protocole 15)
+6. L'impact de la marge d'appréciation sur le contrôle du juge français (Conseil d'État, Cour de cassation)",N/A,"[Structure]
+S1 (1pt) : Note académique structurée avec introduction théorique, analyse jurisprudentielle et perspectives critiques
+S2 (1pt) : Présentation systématique des critères de modulation de la marge
+
+[Style]
+ST1 (1pt) : Rigueur académique avec citations précises des arrêts CEDH (nom, numéro de requête, date)
+ST2 (1pt) : Maîtrise du vocabulaire du droit de la Convention (marge d'appréciation, consensus européen, nécessaire dans une société démocratique)
+
+[Substance]
+SUB1 (2pts) : Expose l'arrêt Handyside c. Royaume-Uni (7 décembre 1976, req. 5493/72) comme fondement de la doctrine : les autorités nationales sont en principe mieux placées que le juge international pour apprécier la nécessité d'une restriction dans une société démocratique
+SUB2 (2pts) : Identifie les critères de modulation : existence d'un consensus européen (plus le consensus est fort, plus la marge est étroite), nature du droit en cause (droits intangibles : pas de marge ; droits soumis à restrictions : marge variable), nature de l'ingérence, importance de l'enjeu pour l'individu
+SUB3 (1pt) : Donne des exemples de marge étroite : discrimination fondée sur le sexe ou l'orientation sexuelle (Karner c. Autriche, 2003), liberté de la presse (Lingens c. Autriche, 1986)
+SUB4 (1pt) : Donne des exemples de marge large : questions de morale (Handyside), rapport entre l'État et les religions (Lautsi c. Italie, GC, 2011), politiques socio-économiques (James c. Royaume-Uni, 1986)
+SUB5 (1pt) : Explique l'articulation avec le test de proportionnalité : la marge détermine l'intensité du contrôle de proportionnalité exercé par la Cour
+SUB6 (1pt) : Mentionne le Protocole n° 15 (entré en vigueur le 1er août 2021) qui insère la référence au principe de subsidiarité et à la marge d'appréciation dans le préambule de la Convention
+SUB7 (1pt) : Évoque les critiques : caractère imprévisible, risque de relativisme, instrument de self-restraint excessif
+
+[Méthodologie]
+M1 (1pt) : Analyse l'impact concret sur la jurisprudence française (réception par le CE et la Cass.)
+
+[Négatif]
+N1 (-1pt) : Erreur sur les faits ou la portée de l'arrêt Handyside
+N2 (-1pt) : Affirmer que la marge d'appréciation s'applique aux droits absolus (art. 3 — interdiction de la torture)
+N3 (-0.5pt) : Omission du critère du consensus européen"
+18,Droit Européen,Concurrence UE,Conseil stratégique,Abus de position dominante — Art. 102 TFUE,"Vous êtes avocat en droit européen de la concurrence au sein d'un cabinet bruxellois. Une entreprise technologique européenne (CA : 2 milliards d'euros), leader sur le marché européen des logiciels de gestion d'entreprise (ERP) avec environ 45% de parts de marché, vous consulte. La Commission européenne a ouvert une enquête préliminaire à la suite de plaintes de concurrents alléguant :
+- Le refus de permettre l'interopérabilité de son logiciel ERP avec des solutions tierces
+- L'imposition de ventes liées (ERP + module de CRM propriétaire)
+- L'application de conditions commerciales discriminatoires selon les pays de l'UE
+
+Rédigez une note d'analyse sur :
+1. La définition du marché pertinent et la caractérisation de la position dominante
+2. La qualification des pratiques au regard de l'article 102 TFUE
+3. Les précédents jurisprudentiels pertinents (Microsoft, Google, Intel)
+4. Les risques d'amende et de mesures correctives
+5. La stratégie de défense recommandée",N/A,"[Structure]
+S1 (1pt) : Note structurée avec analyse du marché pertinent, qualification des abus et stratégie de défense
+S2 (1pt) : Traitement séparé de chaque pratique alléguée avec analyse autonome
+
+[Style]
+ST1 (1pt) : Vocabulaire du droit européen de la concurrence (marché pertinent, position dominante, effet de verrouillage, essential facility)
+ST2 (1pt) : Références au TFUE, aux communications de la Commission et à la jurisprudence du TPUE/CJUE
+
+[Substance]
+SUB1 (2pts) : Analyse la définition du marché pertinent : marché de produit (logiciels ERP — substituabilité de la demande, test SSNIP) et marché géographique (probablement EEE) — 45% de parts de marché constitue un indice fort de dominance mais pas une présomption (la présomption joue au-delà de 50%, CJCE Akzo, aff. C-62/86)
+SUB2 (1pt) : Qualifie le refus d'interopérabilité au regard de la jurisprudence Microsoft (T-201/04, 2007) : refus d'accès à des informations d'interopérabilité, risque d'élimination de la concurrence sur un marché connexe, absence de justification objective
+SUB3 (1pt) : Analyse la vente liée ERP + CRM au regard de l'art. 102 d) TFUE et de la jurisprudence (Commission c. Microsoft, affaire des ventes liées Windows/Media Player)
+SUB4 (1pt) : Qualifie les conditions discriminatoires au regard de l'art. 102 c) TFUE : application de conditions inégales à des prestations équivalentes, désavantage concurrentiel pour certains partenaires
+SUB5 (1pt) : Mentionne les amendes potentielles : jusqu'à 10% du CA mondial (art. 23 Règlement 1/2003) — cite des précédents (Google Shopping 2,42 Mds euros 2017, Google Android 4,34 Mds euros 2018, Intel 1,06 Md euros 2009)
+SUB6 (1pt) : Évoque les engagements (art. 9 Règlement 1/2003) comme alternative à une décision d'infraction
+SUB7 (1pt) : Mentionne les justifications objectives possibles : protection de la qualité du service, nécessité technique, gains d'efficience (art. 102 TFUE, communication de la Commission de 2009 sur les priorités d'application)
+
+[Méthodologie]
+M1 (1pt) : Propose une stratégie de défense concrète (coopération, engagements, justifications techniques)
+
+[Négatif]
+N1 (-1pt) : Confusion entre art. 101 (ententes) et art. 102 (abus de position dominante)
+N2 (-1pt) : Erreur sur un précédent jurisprudentiel majeur cité
+N3 (-0.5pt) : Omission de la définition du marché pertinent dans l'analyse"
+19,Droit Européen,Numérique UE,Risques & Conformité,Obligations des gatekeepers sous le DMA,"Vous êtes avocat spécialisé en droit européen du numérique. Une grande plateforme de marketplace en ligne, récemment désignée comme ""contrôleur d'accès"" (gatekeeper) par la Commission européenne au titre du règlement sur les marchés numériques (Digital Markets Act — DMA, Règlement 2022/1925), vous consulte. La plateforme exploite un service de place de marché en ligne (core platform service) comptant plus de 50 millions d'utilisateurs finaux actifs par mois dans l'UE et plus de 15 000 entreprises utilisatrices actives par an.
+
+Rédigez une note complète sur :
+1. Les critères de désignation comme gatekeeper (art. 3 DMA) et la procédure
+2. Les obligations applicables au service de place de marché (art. 5, 6 et 7 DMA)
+3. Les interdictions spécifiques (auto-préférence, combinaison de données, clauses MFN)
+4. Le régime de sanctions et les pouvoirs d'enquête de la Commission
+5. L'articulation avec le droit de la concurrence (art. 101 et 102 TFUE)
+6. Les mesures de mise en conformité recommandées",N/A,"[Structure]
+S1 (1pt) : Note structurée par thèmes réglementaires avec distinction claire entre obligations de faire et interdictions
+S2 (1pt) : Présentation pratique orientée mise en conformité (compliance roadmap)
+
+[Style]
+ST1 (1pt) : Vocabulaire du droit européen du numérique (gatekeeper, core platform service, entreprises utilisatrices, interopérabilité)
+ST2 (1pt) : Références précises aux articles du DMA et aux décisions de désignation de la Commission
+
+[Substance]
+SUB1 (2pts) : Détaille les critères de désignation (art. 3 DMA) : (a) impact significatif sur le marché intérieur (CA EEE >= 7,5 Mds euros ou capitalisation >= 75 Mds euros), (b) fourniture d'un service de plateforme essentiel servant de passerelle importante (>= 45 M utilisateurs finaux actifs/mois et >= 10 000 entreprises utilisatrices/an dans l'UE), (c) position ancrée et durable (seuils atteints sur 3 exercices)
+SUB2 (2pts) : Identifie les obligations clés pour une marketplace : interdiction d'auto-préférence dans le classement (art. 6.5), interdiction de combiner les données personnelles du service avec celles d'autres services sans consentement (art. 5.2), interdiction des clauses MFN étroites et larges (art. 5.3)
+SUB3 (1pt) : Mentionne l'obligation de portabilité des données (art. 6.9) et d'accès aux données de performance marketing et publicitaire (art. 6.8)
+SUB4 (1pt) : Mentionne l'obligation de permettre aux entreprises utilisatrices de promouvoir leurs offres et de conclure des contrats en dehors de la plateforme (art. 5.4)
+SUB5 (1pt) : Détaille le régime de sanctions : amendes jusqu'à 10% du CA mondial (art. 30 DMA), 20% en cas de récidive, astreintes jusqu'à 5% du CA journalier moyen, et en dernier recours, mesures structurelles (art. 18)
+SUB6 (1pt) : Explique l'articulation avec le droit de la concurrence : le DMA est un instrument de régulation ex ante qui s'applique sans préjudice des articles 101 et 102 TFUE (art. 1.6 DMA)
+SUB7 (1pt) : Mentionne le délai de mise en conformité de 6 mois après la désignation (art. 3.10 DMA) et l'obligation de présenter un rapport de conformité
+
+[Méthodologie]
+M1 (1pt) : Propose un plan de mise en conformité priorisé avec échéances
+
+[Négatif]
+N1 (-1pt) : Erreur sur les seuils quantitatifs de désignation
+N2 (-1pt) : Confusion entre DMA et DSA (Digital Services Act)
+N3 (-0.5pt) : Omission de l'interdiction d'auto-préférence"
+20,Droit Européen,UE Institutionnel,Recherche juridique,Renvoi préjudiciel — Art. 267 TFUE,"Vous êtes juriste en droit de l'Union européenne dans un cabinet d'avocats. Un associé plaidant devant le Conseil d'État vous demande de rédiger une note de recherche sur le mécanisme du renvoi préjudiciel prévu à l'article 267 TFUE, dans le contexte d'un litige administratif français où se pose une question sérieuse d'interprétation d'un règlement européen sur les aides d'État. Le Conseil d'État, juridiction suprême, hésite à saisir la CJUE.
+
+Votre note doit couvrir :
+1. Le mécanisme du renvoi préjudiciel (art. 267 TFUE) : objet, juridictions compétentes, types de questions
+2. La distinction entre renvoi en interprétation et renvoi en appréciation de validité
+3. L'obligation de renvoi des juridictions de dernier ressort et les exceptions (acte clair, acte éclairé)
+4. La jurisprudence CILFIT (aff. 283/81) et ses critères
+5. La position du Conseil d'État français (évolution de la jurisprudence : des réticences initiales à la coopération loyale)
+6. Les conséquences du refus de renvoi (procédure en manquement, responsabilité de l'État — Köbler)",N/A,"[Structure]
+S1 (1pt) : Note de recherche structurée avec analyse du mécanisme, obligations et jurisprudence
+S2 (1pt) : Articulation entre le droit de l'UE et la pratique du Conseil d'État français
+
+[Style]
+ST1 (1pt) : Rigueur académique avec citations des arrêts CJUE et du Conseil d'État (nom, numéro, date)
+ST2 (1pt) : Maîtrise de la terminologie du contentieux européen (renvoi préjudiciel, acte clair, effet utile)
+
+[Substance]
+SUB1 (2pts) : Expose le mécanisme de l'art. 267 TFUE : compétence de la CJUE pour statuer à titre préjudiciel sur l'interprétation des traités et sur la validité et l'interprétation des actes des institutions ; toute juridiction nationale peut saisir la CJUE ; les juridictions de dernier ressort sont tenues de la saisir
+SUB2 (2pts) : Détaille l'arrêt CILFIT (CJCE, 6 octobre 1982, aff. 283/81) : trois exceptions à l'obligation de renvoi pour les juridictions de dernier ressort : (a) la question n'est pas pertinente, (b) la disposition a déjà été interprétée par la CJUE (acte éclairé), (c) l'application correcte du droit de l'UE s'impose avec une évidence telle qu'elle ne laisse place à aucun doute raisonnable (acte clair)
+SUB3 (1pt) : Mentionne l'évolution jurisprudentielle récente de la CJUE (arrêt Consorzio Italian Management, aff. C-561/19, 2021) qui a précisé les critères CILFIT tout en maintenant l'obligation de renvoi
+SUB4 (1pt) : Retrace l'évolution du Conseil d'État français : des réticences initiales (théorie de l'acte clair utilisée de manière extensive — CE, 19 juin 1964, Société des pétroles Shell-Berre) à une coopération plus loyale (augmentation significative des renvois depuis les années 2000)
+SUB5 (1pt) : Explique l'arrêt Köbler (CJCE, 30 septembre 2003, aff. C-224/01) : responsabilité de l'État pour violation du droit de l'UE par une juridiction de dernier ressort, y compris en cas de refus de renvoi préjudiciel
+SUB6 (1pt) : Distingue le renvoi en interprétation (la CJUE interprète, le juge national applique) et le renvoi en appréciation de validité (seule la CJUE peut déclarer un acte invalide — Foto-Frost, aff. 314/85, 1987)
+SUB7 (1pt) : Mentionne la procédure préjudicielle d'urgence (PPU) pour les renvois relevant de l'ELSJ (espace de liberté, sécurité et justice)
+
+[Méthodologie]
+M1 (1pt) : Formule une recommandation argumentée sur l'opportunité d'un renvoi dans le cas d'espèce
+
+[Négatif]
+N1 (-1pt) : Erreur sur les critères CILFIT
+N2 (-1pt) : Affirmer que les juridictions de premier degré sont tenues de renvoyer
+N3 (-0.5pt) : Omission de l'arrêt Foto-Frost pour le renvoi en appréciation de validité"

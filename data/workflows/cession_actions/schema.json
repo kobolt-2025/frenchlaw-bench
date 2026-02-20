@@ -1,0 +1,91 @@
+{
+  "title": "CessionActions",
+  "description": "Schema pour l'extraction de deal points d'une cession d'actions en droit français",
+  "type": "object",
+  "properties": {
+    "date_signature": {"type": "string", "description": "Date de signature (YYYY-MM-DD)"},
+    "cessionnaire": {
+      "type": "object",
+      "properties": {
+        "nom": {"type": "string"},
+        "forme_juridique": {"type": "string", "description": "SAS, SARL, SA, etc."},
+        "rcs": {"type": "string", "description": "Numéro RCS"},
+        "siege_social": {"type": "string"}
+      }
+    },
+    "cedant": {
+      "type": "object",
+      "properties": {
+        "nom": {"type": "string"},
+        "forme_juridique": {"type": "string"},
+        "rcs": {"type": "string"},
+        "siege_social": {"type": "string"}
+      }
+    },
+    "societe_cible": {
+      "type": "object",
+      "properties": {
+        "nom": {"type": "string"},
+        "forme_juridique": {"type": "string"},
+        "rcs": {"type": "string"},
+        "siege_social": {"type": "string"}
+      }
+    },
+    "actions_cedees": {
+      "type": "object",
+      "properties": {
+        "nombre": {"type": "integer"},
+        "pourcentage": {"type": "number"},
+        "categorie": {"type": "string", "description": "ordinaires, de préférence, etc."},
+        "valeur_nominale": {"type": "number"}
+      }
+    },
+    "prix_de_cession": {
+      "type": "object",
+      "properties": {
+        "montant": {"type": "number"},
+        "prix_par_action": {"type": "number"},
+        "modalites_paiement": {"type": "string"},
+        "sequestre": {"type": "boolean"},
+        "montant_sequestre": {"type": "number"}
+      }
+    },
+    "complement_de_prix": {
+      "type": "object",
+      "properties": {
+        "earn_out": {"type": "boolean"},
+        "criteres": {"type": "string"},
+        "plafond": {"type": "number"},
+        "duree": {"type": "string"}
+      }
+    },
+    "garantie_actif_passif": {
+      "type": "object",
+      "description": "Spécifique au droit français des cessions",
+      "properties": {
+        "duree": {"type": "string"},
+        "plafond": {"type": "number"},
+        "franchise": {"type": "number"},
+        "type_franchise": {"type": "string", "description": "absolue, relative, à première demande"},
+        "exclusions": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "clause_non_concurrence": {
+      "type": "object",
+      "properties": {
+        "duree": {"type": "string"},
+        "perimetre_geographique": {"type": "string"},
+        "activite": {"type": "string"},
+        "contrepartie": {"type": "string"}
+      }
+    },
+    "conditions_suspensives": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "droit_applicable": {"type": "string"},
+    "juridiction_competente": {"type": "string"},
+    "frais_droits_enregistrement": {"type": "string"},
+    "repartition_frais": {"type": "string"}
+  }
+}
